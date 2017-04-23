@@ -1,3 +1,5 @@
+
+
 body {
 	font-size: 14px;
 	line-height: normal;
@@ -6,6 +8,7 @@ body {
 	font-family: PT-sans, sans-serif;
 	text-transform: uppercase;
 }
+
 
 h2 .index-content-title {
 	font-size: 30px;
@@ -23,4 +26,158 @@ h1 {
 	font-weight: 700;
 	font-family: PT-sans narrow, sans-serif;
 	text-transform: uppercase;
+}
+
+html,
+body {
+	min-width: 1122px;
+	min-height: 1170px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-size: 1122px auto;
+}
+
+.main-header {
+	margin-bottom: 54px;
+	/* Только для оформления*/
+	background-color: rgba(10,150,10,0.5);
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	/* Только для оформления*/
+	background-color: rgba(150,250,130,0.5);
+}
+	
+.main-navigation {
+	float: left;
+	width: 780px;
+	/* Только для оформления сетки */
+	min-height: 150px;
+	background-color: rgba(240,240,70,0.5);
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	/* Только для оформления сетки */
+	min-height: 150px;
+	background-color: rgba(240,240,70,0.5);
+}
+	
+
+.page-header {
+	width: 700px;
+	margin-left: 10px;
+	margin-bottom: 18px;
+	/* Только для оформления сетки */
+	min-height: 30px;
+	background-color: rgba(40,220,220,0.5);
+}
+
+.breadcrumbs {
+	width: 700px;
+	margin-bottom: 41px;
+	/* Только для оформления сетки */
+	min-height: 20px;
+	background-color: rgba(10,150,10,0.5);;
+}
+.content {
+	margin-bottom: 45px;
+}
+
+.content-filter {
+	width: 220px;
+	float: left;
+	margin-right: 10px;
+	/* Только для оформления сетки */
+	min-height: 594px;
+	background-color: rgba(30,30,230,0.5);
+}
+
+.content-item {
+	width: 700px;
+	float: right;
+	/* Только для оформления сетки */
+	min-height: 594px;
+	background-color: rgba(30,30,230,0.5);
+}
+
+.item {
+	display:inline-block;
+	vertical-align: bottom;
+	width: 200px;
+	margin: 10px;
+		
+}
+
+.pages {
+	width: 220px;
+	margin-left: 250px;
+	/* Только для оформления*/
+	min-height: 45px;
+	background-color: rgba(10,150,10,0.5);
+}
+
+.category,
+.item-name {
+	font-size: 14px;
+}
+
+.main-footer {
+	margin-top: 50px;
+	 /* Только для оформления сетки */
+	background-color: rgba(10,150,10,0.5);
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+	/* Только для оформления сетки */
+	min-height: 90px;
+	background-color: rgba(240,240,70,0.5);
+}
+
+.footer-social {
+	float: left;
+	width: 180px;
+	/* Только для оформления сетки */
+	min-height: 90px;
+	background-color: rgba(240,240,70,0.5);
+}
+
+.footer-copyright {
+	float: right;
+	width: 180px;
+	/* Только для оформления сетки */
+	min-height: 90px;
+	background-color: rgba(240,240,70,0.5);
+}
+
+.content-left-photo {
+	float:left;
+	width:460px;
+	/* Только для оформления сетки */
+	min-height: 670px;
+	background-color: rgba(30,30,230,0.5);
+}
+
+.content-right {
+	float: right;
+	width: 390px;
+	/* Только для оформления сетки */
+	min-height: 670px;
+	background-color: rgba(30,30,230,0.5);
 }
